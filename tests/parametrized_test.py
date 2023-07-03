@@ -18,5 +18,5 @@ pytestmark = pytest.mark.dependency  # NÃO REMOVA ESSA LINHA
         ("f", 15),
     ],
 )
-def test_hexadecimal_to_decimal(input_string, expected_result):
+def test_converter(input_string, expected_result):
     assert hexadecimal_to_decimal(input_string) == expected_result
